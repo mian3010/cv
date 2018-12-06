@@ -1,6 +1,6 @@
 version: "2"
 services:
   npm:
-    build: docker/npm
+    image: mkenney/npm
     volumes:
       - './web:/src'
