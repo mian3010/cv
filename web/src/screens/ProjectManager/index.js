@@ -10,7 +10,7 @@ class ProjectManager extends Component {
   /** @inheritdoc */
   render() {
     return (
-      <span>Not yet implemented</span>
+      <div>Not yet implemented</div>
     );
   }
 }
