@@ -13,7 +13,7 @@ ReactDOM.render((
   <Router>
     <App>
       <Switch>
-        <Redirect exact from="/" to="/projekleder" />
+        <Redirect exact from="/" to="/projektleder" />
         <Route path="/projektleder" component={ProjectManager} />
         <Route path="/drupal-udvikler" component={DrupalDeveloper} />
         <Route path="/php-udvikler" component={PhpDeveloper} />
