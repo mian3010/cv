@@ -12,7 +12,6 @@ import ereg from '../../images/ereg.jpg'
 class CaseEreg extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={ereg} title="eReg - Tidsstyring">
         <em>PHP & React</em><br />

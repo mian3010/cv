@@ -12,7 +12,6 @@ import ereolen from '../../images/ereolen.jpg'
 class CaseEreolen extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={ereolen} title="eReolen">
         <em>Drupal 7</em><br />

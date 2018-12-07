@@ -12,7 +12,6 @@ import cphvg from '../../images/cphvg.jpg'
 class CaseCphVgDev extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={cphvg} title="Københavns Kommune - Visitor Guide">
         <em>Drupal 7 & React</em><br />

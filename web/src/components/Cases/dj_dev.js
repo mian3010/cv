@@ -12,7 +12,6 @@ import dj from '../../images/dj.jpg'
 class CaseDjDev extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={dj} title="Dansk Journalistforbund">
         <em>Drupal 8</em><br />

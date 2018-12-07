@@ -12,7 +12,6 @@ import bus from '../../images/bus.jpg'
 class CaseBus extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={bus} title="Børn Unge & Sorg - SMS-rådgivning">
         <em>Laravel/Lumen & React</em><br />

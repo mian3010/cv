@@ -12,7 +12,6 @@ import dac from '../../images/dac.jpg'
 class CaseDac extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={dac} title="Dansk Arkitektur Center">
         Gennem min ansættelse i Reload blev jeg projektleder for projektet der skulle bygge Dansk Arkitektur Centers nye app. Denne app skulle guide folk gennem arkitekturen i København.

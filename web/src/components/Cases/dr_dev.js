@@ -12,7 +12,6 @@ import dr from '../../images/dr.jpg'
 class CaseDrDev extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={dr} title="Danmarks Radio">
         <em>Drupal 7</em><br />

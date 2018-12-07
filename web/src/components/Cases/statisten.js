@@ -12,7 +12,6 @@ import statisten from '../../images/statisten.jpg'
 class CaseStatisten extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={statisten} title="Statisten">
         <em>Drupal 7</em><br />

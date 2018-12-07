@@ -12,7 +12,6 @@ import fc from '../../images/fc.jpg'
 class CaseFc extends Component {
   /** @inheritdoc */
   render() {
-    const { classes } = this.props;
     return (
       <Case image={fc} title="Fort Consult">
         <em>Drupal 8</em><br />
