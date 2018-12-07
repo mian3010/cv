@@ -7,7 +7,6 @@ import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-d
 import ProjectManager from './screens/ProjectManager';
 import DrupalDeveloper from './screens/DrupalDeveloper';
 import PhpDeveloper from './screens/PhpDeveloper';
-import ReactDeveloper from './screens/ReactDeveloper';
 
 ReactDOM.render((
   <Router>
@@ -17,7 +16,6 @@ ReactDOM.render((
         <Route path="/projektleder" component={ProjectManager} />
         <Route path="/drupal-udvikler" component={DrupalDeveloper} />
         <Route path="/php-udvikler" component={PhpDeveloper} />
-        <Route path="/react-udvikler" component={ReactDeveloper} />
       </Switch>
     </App>
   </Router>

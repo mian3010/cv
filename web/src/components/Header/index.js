@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navigation from '../Navigation';
 
 /**
  * Header component.
@@ -10,7 +11,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        Header here
+        <Navigation />
       </header>
     );
   }

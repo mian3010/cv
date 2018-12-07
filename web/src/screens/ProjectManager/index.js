@@ -1,5 +1,38 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
+import profileImage from '../../images/profile_image.jpg';
+
+import PropTypes from 'prop-types';
+import Avatar from '@material-ui/core/Avatar';
+import Button from '@material-ui/core/Button';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
+import Input from '@material-ui/core/Input';
+import InputLabel from '@material-ui/core/InputLabel';
+import LockIcon from '@material-ui/icons/LockOutlined';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Grid from '@material-ui/core/Grid';
+import Divider from '@material-ui/core/Divider';
+
+import Case from '../../components/Case';
+import CurriculumVitae from '../../components/CurriculumVitae';
+
+import CaseMsf from '../../components/Cases/msf.js';
+import CaseDds from '../../components/Cases/dds.js';
+import CaseDj from '../../components/Cases/dj.js';
+import CaseCphVg from '../../components/Cases/cphvg.js';
+import CaseOersted from '../../components/Cases/oersted.js';
+import CaseDr from '../../components/Cases/dr.js';
+import CaseDac from '../../components/Cases/dac.js';
 
 /**
  * Project Manager screen
@@ -10,7 +43,70 @@ class ProjectManager extends Component {
   /** @inheritdoc */
   render() {
     return (
-      <div>Not yet implemented</div>
+      <div>
+        <style dangerouslySetInnerHTML={{__html: `
+          #root { background: #f2f2f2; }
+    `   }} />
+        <div style={{height: 10 + "px"}} />
+        <Grid container spacing={24}>
+          <Grid item md={5} sm={12}>
+            <img src={profileImage} />
+          </Grid>
+          <Grid item md={7} sm={12}>
+            <Typography component="h1" variant="h2">
+              Michael Søby Andersen
+            </Typography>
+            <div style={{height: 40 + "px"}} />
+            <Typography variant="subtitle1">
+              Freelance projektleder<br />
+              Tlf. nr.: <a href="tel:+4561773010">+45 6177 3010</a><br />
+              Mail: <a href="mailto:m@mgit.dk">m@mgit.dk</a>
+            </Typography>
+          </Grid>
+        </Grid>
+        <div style={{height: 20 + "px"}} />
+        <Divider />
+        <div style={{height: 20 + "px"}} />
+        <Typography paragraph>
+          Jeg er en IT projektleder, som har stor erfaring med agile projekter, herunder SCRUM og til dels KANBAN. Jeg har tidligere været selvstændig udvikler, så har således et stærkt teknisk fundament, som tit hjælper mig i min projektledelse.
+        </Typography>
+        <Typography paragraph>
+          På sigt vil jeg gerne arbejde på et mere strategisk niveau. Jeg synes det er rigtigt interessant at være med til at sætte mål og visioner for virksomheder, og være med til at finde ud af hvordan problemer løses i større teams eller organisationer.
+        </Typography>
+        <div style={{height: 10 + "px"}} />
+        <Typography variant="h4">
+            Erfaring
+        </Typography>
+        <div style={{height: 10 + "px"}} />
+
+        <Grid container spacing={24}>
+          <Grid item xs={12} md={6}>
+            <CaseDac />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <CaseDr />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <CaseDds />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <CaseDj />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <CaseOersted />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <CaseMsf />
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <CaseCphVg />
+          </Grid>
+        </Grid>
+        <div style={{height: 20 + "px"}} />
+        <Divider />
+        <div style={{height: 20 + "px"}} />
+        <CurriculumVitae />
+      </div>
     );
   }
 }
