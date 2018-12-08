@@ -11,9 +11,6 @@ const styles = {
   media: {
     height: 140,
   },
-  card: {
-    height: 350,
-  }
 };
 
 
@@ -27,8 +24,8 @@ class Case extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <Card>
-        <CardActionArea className={classes.card}>
+      <Card style={{minHeight: 100 + "%"}}>
+        <CardActionArea>
           <CardMedia
             className={classes.media}
             image={this.props.image}

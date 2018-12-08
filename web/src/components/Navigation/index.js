@@ -40,21 +40,21 @@ class Navigation extends Component {
     return (
       <div className={classes.root}>
         <Grid container>
-          <Grid xs={12} sm={12} md={4}>
+          <Grid item xs={12} sm={12} md={4}>
             <Link to='/projektleder' className={classes.link}>
               <Typography variant="h6" color="inherit" className={classes.typo} style={{background: "#000000", color: "#fff"}}>
                 Projektleder
               </Typography>
             </Link>
           </Grid>
-          <Grid xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Link to='/drupal-udvikler' className={classes.link}>
               <Typography variant="h6" color="inherit" className={classes.typo} style={{background: "#25AAE1", color: "#fff"}}>
                 Drupal-udvikler
               </Typography>
             </Link>
           </Grid>
-          <Grid xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Link to='/php-udvikler' className={classes.link}>
               <Typography variant="h6" color="inherit" className={classes.typo} style={{background: "#617cbe", color: "#fff"}}>
                 PHP-udvikler

@@ -66,28 +66,28 @@ class PhpDeveloper extends Component {
         <div style={{height: 10 + "px"}} />
 
         <Grid container spacing={24}>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseBus />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseEreg />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseDrDev />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseDjDev />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseEreolen />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseStatisten />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseFc />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseCphVgDev />
           </Grid>
         </Grid>

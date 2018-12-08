@@ -65,25 +65,25 @@ class ProjectManager extends Component {
         <div style={{height: 10 + "px"}} />
 
         <Grid container spacing={24}>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseDac />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseDr />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseDds />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseDj />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseOersted />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseMsf />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} sm={6}>
             <CaseCphVg />
           </Grid>
         </Grid>
