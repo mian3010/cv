@@ -39,6 +39,7 @@ class PhpDeveloper extends Component {
             <Typography component="h1" variant="h2">
               Freelance PHP-udvikler
             </Typography>
+            <div style={{height: 10 + "px"}} />
             <Typography variant="h4">
               Michael Søby Andersen
             </Typography>
