@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/oersted.f0ed5662.jpg"
   },
   {
-    "revision": "bb447abd3d719eba5241",
-    "url": "/static/js/main.bb447abd.chunk.js"
+    "revision": "78d80f04734e3e64bd0e",
+    "url": "/static/js/main.78d80f04.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/js/1.d0e625ce.chunk.js"
   },
   {
-    "revision": "bedf1349c0178dad10924702d7b96904",
+    "revision": "f0fdbdfccc5ffde391fcd7d2d9595691",
     "url": "/index.html"
   }
 ];
