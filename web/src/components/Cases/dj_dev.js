@@ -14,6 +14,7 @@ class CaseDjDev extends Component {
   render() {
     return (
       <Case image={dj} title="Dansk Journalistforbund">
+        <em>2017</em><br />
         <em>Drupal 8</em><br />
         Gennem min ansættelse i Reload var jeg en kort overgang udvikler på projektet for Dansk Journalistforbund. Jeg var med til at bygge størstedelen af deres nye site, og er i dag stadig den med flest commits på projektet.
       </Case>

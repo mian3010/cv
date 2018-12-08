@@ -54,6 +54,9 @@ class DrupalDeveloper extends Component {
         <Typography paragraph>
           Jeg har arbejdet med Drupal i over 5 år. Jeg har også været en del af nok danmarks største Drupal-projekt, navnligt DR.dk på Drupal. Her blev jeg en del af arkitektgruppen efter kun 2 måneder på projektet.
         </Typography>
+        <Typography paragraph>
+          Jeg er bedst til at løse tunge integrationsopgaver og svære problemstillinger. Jeg fungerer bedst i en stilling som backend-udvikler.
+        </Typography>
         <div style={{height: 10 + "px"}} />
         <Typography variant="h4">
             Erfaring

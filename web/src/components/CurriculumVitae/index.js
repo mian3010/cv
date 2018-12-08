@@ -23,7 +23,7 @@ class CurriculumVitae extends Component {
       <div>
         <ExpansionPanel>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="h2">CV</Typography>
+            <Typography variant="h4">Læs mit CV her</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <div>

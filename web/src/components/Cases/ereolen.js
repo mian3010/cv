@@ -14,6 +14,7 @@ class CaseEreolen extends Component {
   render() {
     return (
       <Case image={ereolen} title="eReolen">
+        <em>2016</em><br />
         <em>Drupal 7</em><br />
         Som freelancer i min egen virksomhed blev jeg hyret ind af Reload, til at være backendudvikler på det nye eReolen.dk. Vi leverede projektet til tiden, til budgettet og til en glad kunde.
       </Case>

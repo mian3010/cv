@@ -7,6 +7,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Paper from '@material-ui/core/Paper';
 import withStyles from '@material-ui/core/styles/withStyles';
 
+import Attention from './components/Attention';
+
 const styles = theme => ({
   main: {
     width: 'auto',
@@ -38,6 +40,7 @@ class App extends Component {
         <Paper className={classes.paper}>
           {this.props.children}
         </Paper>
+        <Attention />
       </main>
     );
   }

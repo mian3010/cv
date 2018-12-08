@@ -14,6 +14,7 @@ class CaseOersted extends Component {
   render() {
     return (
       <Case image={oersted} title="Ørsted - Obviux Nemo">
+        <em>2017</em><br />
         Gennem min ansættelse i Reload blev jeg sendt ud til Obviux, som bygger faktureringssystemet til Ørsted, tidligere Dong Energy. Her agerede jeg Scrum Master, og hjalp dem i mål til deadline.
       </Case>
     );

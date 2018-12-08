@@ -14,6 +14,7 @@ class CaseFc extends Component {
   render() {
     return (
       <Case image={fc} title="Fort Consult">
+        <em>2018</em><br />
         <em>Drupal 8</em><br />
         Gennem min ansættelse i Rommel blev jeg sat til at løse et par mindre problemer for Fort Consult
       </Case>

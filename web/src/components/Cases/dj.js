@@ -14,7 +14,7 @@ class CaseDj extends Component {
   render() {
     return (
       <Case image={dj} title="Dansk Journalistforbund">
-        <a href="http://journalistforbundet.dk" target="_blank" rel="noopener noreferrer">journalistforbundet.dk</a><br />
+        <em>2017</em><br />
         Gennem min ansættelse i Reload startede jeg som udvikler på projektet for Dansk Journalistforbund. Efter lancering tog jeg over som projektleder, og hjalp dem i mål med de fejl og mangler der har været.
       </Case>
     );

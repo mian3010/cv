@@ -14,7 +14,7 @@ class CaseDds extends Component {
   render() {
     return (
       <Case image={dds} title="Det Danske Spejderkorps">
-        <a href="http://dds.dk" target="_blank" rel="noopener noreferrer">dds.dk</a><br />
+        <em>2017</em><br />
         Gennem min ansættelse i Reload blev jeg projektleder for projektet der skulle give Det Danske Spejderkorps en ny hjemmeside. I samarbejde med Aller CP fik de et helt nyt site, som i langt højere grad understøttede deres formål.
       </Case>
     );

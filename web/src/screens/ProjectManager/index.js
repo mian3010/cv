@@ -55,6 +55,9 @@ class ProjectManager extends Component {
         <Typography paragraph>
           På sigt vil jeg gerne arbejde på et mere strategisk niveau. Jeg synes det er rigtigt interessant at være med til at sætte mål og visioner for virksomheder, og være med til at finde ud af hvordan problemer løses i større teams eller organisationer.
         </Typography>
+        <Typography paragraph>
+          Jeg fungerer bedst i projekter med mange interessanter, komplekse organisationer, og hvor klar og tydelig afrapportering er vigtig. Jeg fungerer både i mindre og større teams, og gør mit bedste for at kende mit team så godt som muligt, så vi sammen kan løfte de udfordringer vi bliver stillet overfor.
+        </Typography>
         <div style={{height: 10 + "px"}} />
         <Typography variant="h4">
             Erfaring

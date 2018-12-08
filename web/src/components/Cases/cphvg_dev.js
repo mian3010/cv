@@ -14,6 +14,7 @@ class CaseCphVgDev extends Component {
   render() {
     return (
       <Case image={cphvg} title="Københavns Kommune - Visitor Guide">
+        <em>2018</em><br />
         <em>Drupal 7 & React</em><br />
         Som freelancer blev jeg hyret ind af Reload, til at løse en masse problemer på VisitorGuide-systemet.
       </Case>

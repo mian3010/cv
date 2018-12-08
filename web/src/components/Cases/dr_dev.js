@@ -14,6 +14,7 @@ class CaseDrDev extends Component {
   render() {
     return (
       <Case image={dr} title="Danmarks Radio">
+        <em>2015/2016</em><br />
         <em>Drupal 7</em><br />
         Som freelancer i min egen virksomhed blev jeg sendt ud til DR af Reload. Jeg blev en del af arkitektgruppen efter kun 2 måneder på projektet, og blev således en af de ansvarlige for struktureringen af danmarks største Drupal-løsning.
       </Case>

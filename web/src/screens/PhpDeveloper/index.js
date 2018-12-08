@@ -56,6 +56,9 @@ class PhpDeveloper extends Component {
         <Typography paragraph>
           Jeg begyndte at lære PHP som 12-årig, og havde mit første job som PHP-udvikler som 19-årig, og har derfor over 7 års erfaring.
         </Typography>
+        <Typography paragraph>
+          Jeg er bedst til implementering af tunge backend-opgaver. Jeg fungerer bedst i en stilling som backend-udvikler.
+        </Typography>
         <div style={{height: 10 + "px"}} />
         <Typography variant="h4">
             Erfaring

@@ -14,6 +14,7 @@ class CaseStatisten extends Component {
   render() {
     return (
       <Case image={statisten} title="Statisten">
+        <em>2011/2012/2013</em><br />
         <em>Drupal 7</em><br />
         Mit første IT-job var som deltidsudvikler hos Statisten. Her fik jeg mulighed for at lære hvordan Drupal 7 fungerede, og endte med at være Statistens ansvarlige for deres nye site, mens det blev bygget.
       </Case>
