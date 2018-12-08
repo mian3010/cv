@@ -38,8 +38,8 @@ class Attention extends Component {
         </Typography>
         <Typography paragraph className={classes.typography}>
           Ring eller skriv en mail<br />
-          <em>+45 6177 3010</em><br />
-          <em>m@mgit.dk</em>
+          <em><a href="tel:+4561773010">+45 6177 3010</a></em><br />
+          <em><a href="mailto:m@mgit.dk">m@mgit.dk</a></em>
         </Typography>
       </Paper>
     );
