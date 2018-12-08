@@ -35,11 +35,14 @@ class DrupalDeveloper extends Component {
           </Grid>
           <Grid item md={7} sm={12}>
             <Typography component="h1" variant="h2">
+              Freelance Drupal-udvikler
+            </Typography>
+            <div style={{height: 10 + "px"}} />
+            <Typography variant="h4">
               Michael Søby Andersen
             </Typography>
             <div style={{height: 40 + "px"}} />
             <Typography variant="subtitle1">
-              Freelance Drupal-udvikler<br />
               Tlf. nr.: <a href="tel:+4561773010">+45 6177 3010</a><br />
               Mail: <a href="mailto:m@mgit.dk">m@mgit.dk</a>
             </Typography>
