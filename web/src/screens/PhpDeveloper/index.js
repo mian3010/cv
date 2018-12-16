@@ -14,7 +14,6 @@ import CaseDrDev from '../../components/Cases/dr_dev.js';
 import CaseDjDev from '../../components/Cases/dj_dev.js';
 import CaseEreolen from '../../components/Cases/ereolen.js';
 import CaseStatisten from '../../components/Cases/statisten.js';
-import CaseFc from '../../components/Cases/fc.js';
 import CaseCphVgDev from '../../components/Cases/cphvg_dev.js';
 
 /**
@@ -86,9 +85,6 @@ class PhpDeveloper extends Component {
           </Grid>
           <Grid item xs={12} sm={6}>
             <CaseStatisten />
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <CaseFc />
           </Grid>
           <Grid item xs={12} sm={6}>
             <CaseCphVgDev />

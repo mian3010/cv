@@ -37,7 +37,7 @@ class WorkList extends Component {
           <li>
             <Typography paragraph>
               Partner og stifter hos eReg IVS<br />
-              <em>maj 2013 - ? (5 år og 6 måneder)</em>
+              <em>maj 2013 - september 2018 (5 år og 5 måneder)</em>
             </Typography>
           </li>
           <li>
