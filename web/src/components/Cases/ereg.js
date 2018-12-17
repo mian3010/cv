@@ -16,7 +16,7 @@ class CaseEreg extends Component {
       <Case image={ereg} title="eReg - Tidsstyring">
         <em>2013</em><br />
         <em>PHP & React</em><br />
-        Jeg har bygget et tidsstyringssystem til håndværksvirksomheder, navnligt eReg, sammen med Mikkel Rommelhoff. Systemet er bygget i ren PHP, med en mobilvisning bygget i React.
+        Jeg har bygget et tidsstyringssystem til håndværksvirksomheder, navnligt eReg. Systemet er bygget i ren PHP, med en mobilvisning bygget i React.
       </Case>
     );
   }
